@@ -20,6 +20,7 @@ class AppConfiguration {
 
     companion object {
         private val LOGGER: Logger = LoggerFactory.getLogger(AppConfiguration::class.java)
+        const val QUEUE_NAME = "test-queue-name"
     }
 
     @Bean

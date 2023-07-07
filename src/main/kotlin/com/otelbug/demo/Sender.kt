@@ -1,5 +1,6 @@
 package com.otelbug.demo
 
+import com.otelbug.demo.AppConfiguration.Companion.QUEUE_NAME
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Qualifier
